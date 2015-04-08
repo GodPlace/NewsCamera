@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FDB938B1AD58E22007EA625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB938A1AD58E22007EA625 /* main.m */; };
+		3FDB938E1AD58E22007EA625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB938D1AD58E22007EA625 /* AppDelegate.m */; };
+		3FDB93911AD58E22007EA625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB93901AD58E22007EA625 /* ViewController.m */; };
+		3FDB93941AD58E22007EA625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93921AD58E22007EA625 /* Main.storyboard */; };
+		3FDB93961AD58E22007EA625 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93951AD58E22007EA625 /* Images.xcassets */; };
+		3FDB93991AD58E22007EA625 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93971AD58E22007EA625 /* LaunchScreen.xib */; };
+		3FDB93A51AD58E22007EA625 /* NewsCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB93A41AD58E22007EA625 /* NewsCameraTests.m */; };
+		3FDB93E91AD58E6F007EA625 /* button_bg_normal.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93AF1AD58E6F007EA625 /* button_bg_normal.9.png */; };
+		3FDB93EA1AD58E6F007EA625 /* button_bg_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B01AD58E6F007EA625 /* button_bg_pressed.9.png */; };
+		3FDB93EB1AD58E6F007EA625 /* button_camera_normal.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B11AD58E6F007EA625 /* button_camera_normal.9.png */; };
+		3FDB93EC1AD58E6F007EA625 /* button_camera_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B21AD58E6F007EA625 /* button_camera_pressed.9.png */; };
+		3FDB93ED1AD58E6F007EA625 /* button_normal.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B31AD58E6F007EA625 /* button_normal.9.png */; };
+		3FDB93EE1AD58E6F007EA625 /* button_press.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B41AD58E6F007EA625 /* button_press.9.png */; };
+		3FDB93EF1AD58E6F007EA625 /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B51AD58E6F007EA625 /* camera_icon.png */; };
+		3FDB93F01AD58E6F007EA625 /* cctv_com.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B61AD58E6F007EA625 /* cctv_com.png */; };
+		3FDB93F11AD58E6F007EA625 /* cntv_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B71AD58E6F007EA625 /* cntv_logo.png */; };
+		3FDB93F21AD58E6F007EA625 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B81AD58E6F007EA625 /* ic_launcher.png */; };
+		3FDB93F31AD58E6F007EA625 /* live1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93B91AD58E6F007EA625 /* live1.png */; };
+		3FDB93F41AD58E6F007EA625 /* live2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93BA1AD58E6F007EA625 /* live2.png */; };
+		3FDB93F51AD58E6F007EA625 /* movie_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93BB1AD58E6F007EA625 /* movie_screen.png */; };
+		3FDB93F61AD58E6F007EA625 /* save_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93BC1AD58E6F007EA625 /* save_icon.png */; };
+		3FDB93F71AD58E6F007EA625 /* share_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93BD1AD58E6F007EA625 /* share_icon.png */; };
+		3FDB93F81AD58E6F007EA625 /* subtitle_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93BE1AD58E6F007EA625 /* subtitle_icon.png */; };
+		3FDB93F91AD58E6F007EA625 /* template_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93BF1AD58E6F007EA625 /* template_icon.png */; };
+		3FDB93FA1AD58E6F007EA625 /* templete_ahtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C01AD58E6F007EA625 /* templete_ahtv.png */; };
+		3FDB93FB1AD58E6F007EA625 /* templete_btv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C11AD58E6F007EA625 /* templete_btv.png */; };
+		3FDB93FC1AD58E6F007EA625 /* templete_cctv1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C21AD58E6F007EA625 /* templete_cctv1.png */; };
+		3FDB93FD1AD58E6F007EA625 /* templete_cctv10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C31AD58E6F007EA625 /* templete_cctv10.png */; };
+		3FDB93FE1AD58E6F007EA625 /* templete_cctv11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C41AD58E6F007EA625 /* templete_cctv11.png */; };
+		3FDB93FF1AD58E6F007EA625 /* templete_cctv12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C51AD58E6F007EA625 /* templete_cctv12.png */; };
+		3FDB94001AD58E6F007EA625 /* templete_cctv13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C61AD58E6F007EA625 /* templete_cctv13.png */; };
+		3FDB94011AD58E6F007EA625 /* templete_cctv14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C71AD58E6F007EA625 /* templete_cctv14.png */; };
+		3FDB94021AD58E6F007EA625 /* templete_cctv15.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C81AD58E6F007EA625 /* templete_cctv15.png */; };
+		3FDB94031AD58E6F007EA625 /* templete_cctv2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93C91AD58E6F007EA625 /* templete_cctv2.png */; };
+		3FDB94041AD58E6F007EA625 /* templete_cctv3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93CA1AD58E6F007EA625 /* templete_cctv3.png */; };
+		3FDB94051AD58E6F007EA625 /* templete_cctv4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93CB1AD58E6F007EA625 /* templete_cctv4.png */; };
+		3FDB94061AD58E6F007EA625 /* templete_cctv5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93CC1AD58E6F007EA625 /* templete_cctv5.png */; };
+		3FDB94071AD58E6F007EA625 /* templete_cctv6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93CD1AD58E6F007EA625 /* templete_cctv6.png */; };
+		3FDB94081AD58E6F007EA625 /* templete_cctv7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93CE1AD58E6F007EA625 /* templete_cctv7.png */; };
+		3FDB94091AD58E6F007EA625 /* templete_cctv8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93CF1AD58E6F007EA625 /* templete_cctv8.png */; };
+		3FDB940A1AD58E6F007EA625 /* templete_cctv9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D01AD58E6F007EA625 /* templete_cctv9.png */; };
+		3FDB940B1AD58E6F007EA625 /* templete_cctvnews.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D11AD58E6F007EA625 /* templete_cctvnews.png */; };
+		3FDB940C1AD58E6F007EA625 /* templete_cztv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D21AD58E6F007EA625 /* templete_cztv.png */; };
+		3FDB940D1AD58E6F007EA625 /* templete_fjtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D31AD58E6F007EA625 /* templete_fjtv.png */; };
+		3FDB940E1AD58E6F007EA625 /* templete_gdtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D41AD58E6F007EA625 /* templete_gdtv.png */; };
+		3FDB940F1AD58E6F007EA625 /* templete_gxtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D51AD58E6F007EA625 /* templete_gxtv.png */; };
+		3FDB94101AD58E6F007EA625 /* templete_gzstv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D61AD58E6F007EA625 /* templete_gzstv.png */; };
+		3FDB94111AD58E6F007EA625 /* templete_hbe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D71AD58E6F007EA625 /* templete_hbe.png */; };
+		3FDB94121AD58E6F007EA625 /* templete_hbtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D81AD58E6F007EA625 /* templete_hbtv.png */; };
+		3FDB94131AD58E6F007EA625 /* templete_hljtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93D91AD58E6F007EA625 /* templete_hljtv.png */; };
+		3FDB94141AD58E6F007EA625 /* templete_hntv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93DA1AD58E6F007EA625 /* templete_hntv.png */; };
+		3FDB94151AD58E6F007EA625 /* templete_hnwtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93DB1AD58E6F007EA625 /* templete_hnwtv.png */; };
+		3FDB94161AD58E6F007EA625 /* templete_jilin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93DC1AD58E6F007EA625 /* templete_jilin.png */; };
+		3FDB94171AD58E6F007EA625 /* templete_jstv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93DD1AD58E6F007EA625 /* templete_jstv.png */; };
+		3FDB94181AD58E6F007EA625 /* templete_jxtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93DE1AD58E6F007EA625 /* templete_jxtv.png */; };
+		3FDB94191AD58E6F007EA625 /* templete_lntv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93DF1AD58E6F007EA625 /* templete_lntv.png */; };
+		3FDB941A1AD58E6F007EA625 /* templete_sctv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93E01AD58E6F007EA625 /* templete_sctv.png */; };
+		3FDB941B1AD58E6F007EA625 /* templete_sdtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93E11AD58E6F007EA625 /* templete_sdtv.png */; };
+		3FDB941C1AD58E6F007EA625 /* templete_smgtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93E21AD58E6F007EA625 /* templete_smgtv.png */; };
+		3FDB941D1AD58E6F007EA625 /* templete_sxr.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93E31AD58E6F007EA625 /* templete_sxr.png */; };
+		3FDB941E1AD58E6F007EA625 /* templete_sxstv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93E41AD58E6F007EA625 /* templete_sxstv.png */; };
+		3FDB941F1AD58E6F007EA625 /* templete_tjtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93E51AD58E6F007EA625 /* templete_tjtv.png */; };
+		3FDB94201AD58E6F007EA625 /* templete_xjtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93E61AD58E6F007EA625 /* templete_xjtv.png */; };
+		3FDB94211AD58E6F007EA625 /* templete_xmgtv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93E71AD58E6F007EA625 /* templete_xmgtv.png */; };
+		3FDB94221AD58E6F007EA625 /* templete_yntv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB93E81AD58E6F007EA625 /* templete_yntv.png */; };
+		3FDB94261AD58ED5007EA625 /* OperateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB94241AD58ED5007EA625 /* OperateViewController.m */; };
+		3FDB94271AD58ED5007EA625 /* OperateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB94251AD58ED5007EA625 /* OperateViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FDB939F1AD58E22007EA625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDB937D1AD58E22007EA625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDB93841AD58E22007EA625;
+			remoteInfo = NewsCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FDB93851AD58E22007EA625 /* NewsCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDB93891AD58E22007EA625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDB938A1AD58E22007EA625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FDB938C1AD58E22007EA625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FDB938D1AD58E22007EA625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FDB938F1AD58E22007EA625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FDB93901AD58E22007EA625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FDB93931AD58E22007EA625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FDB93951AD58E22007EA625 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3FDB93981AD58E22007EA625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3FDB939E1AD58E22007EA625 /* NewsCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDB93A31AD58E22007EA625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDB93A41AD58E22007EA625 /* NewsCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCameraTests.m; sourceTree = "<group>"; };
+		3FDB93AF1AD58E6F007EA625 /* button_bg_normal.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg_normal.9.png; sourceTree = "<group>"; };
+		3FDB93B01AD58E6F007EA625 /* button_bg_pressed.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bg_pressed.9.png; sourceTree = "<group>"; };
+		3FDB93B11AD58E6F007EA625 /* button_camera_normal.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_camera_normal.9.png; sourceTree = "<group>"; };
+		3FDB93B21AD58E6F007EA625 /* button_camera_pressed.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_camera_pressed.9.png; sourceTree = "<group>"; };
+		3FDB93B31AD58E6F007EA625 /* button_normal.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal.9.png; sourceTree = "<group>"; };
+		3FDB93B41AD58E6F007EA625 /* button_press.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_press.9.png; sourceTree = "<group>"; };
+		3FDB93B51AD58E6F007EA625 /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon.png; sourceTree = "<group>"; };
+		3FDB93B61AD58E6F007EA625 /* cctv_com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cctv_com.png; sourceTree = "<group>"; };
+		3FDB93B71AD58E6F007EA625 /* cntv_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cntv_logo.png; sourceTree = "<group>"; };
+		3FDB93B81AD58E6F007EA625 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		3FDB93B91AD58E6F007EA625 /* live1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = live1.png; sourceTree = "<group>"; };
+		3FDB93BA1AD58E6F007EA625 /* live2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = live2.png; sourceTree = "<group>"; };
+		3FDB93BB1AD58E6F007EA625 /* movie_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie_screen.png; sourceTree = "<group>"; };
+		3FDB93BC1AD58E6F007EA625 /* save_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save_icon.png; sourceTree = "<group>"; };
+		3FDB93BD1AD58E6F007EA625 /* share_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_icon.png; sourceTree = "<group>"; };
+		3FDB93BE1AD58E6F007EA625 /* subtitle_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subtitle_icon.png; sourceTree = "<group>"; };
+		3FDB93BF1AD58E6F007EA625 /* template_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = template_icon.png; sourceTree = "<group>"; };
+		3FDB93C01AD58E6F007EA625 /* templete_ahtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_ahtv.png; sourceTree = "<group>"; };
+		3FDB93C11AD58E6F007EA625 /* templete_btv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_btv.png; sourceTree = "<group>"; };
+		3FDB93C21AD58E6F007EA625 /* templete_cctv1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv1.png; sourceTree = "<group>"; };
+		3FDB93C31AD58E6F007EA625 /* templete_cctv10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv10.png; sourceTree = "<group>"; };
+		3FDB93C41AD58E6F007EA625 /* templete_cctv11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv11.png; sourceTree = "<group>"; };
+		3FDB93C51AD58E6F007EA625 /* templete_cctv12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv12.png; sourceTree = "<group>"; };
+		3FDB93C61AD58E6F007EA625 /* templete_cctv13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv13.png; sourceTree = "<group>"; };
+		3FDB93C71AD58E6F007EA625 /* templete_cctv14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv14.png; sourceTree = "<group>"; };
+		3FDB93C81AD58E6F007EA625 /* templete_cctv15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv15.png; sourceTree = "<group>"; };
+		3FDB93C91AD58E6F007EA625 /* templete_cctv2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv2.png; sourceTree = "<group>"; };
+		3FDB93CA1AD58E6F007EA625 /* templete_cctv3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv3.png; sourceTree = "<group>"; };
+		3FDB93CB1AD58E6F007EA625 /* templete_cctv4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv4.png; sourceTree = "<group>"; };
+		3FDB93CC1AD58E6F007EA625 /* templete_cctv5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv5.png; sourceTree = "<group>"; };
+		3FDB93CD1AD58E6F007EA625 /* templete_cctv6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv6.png; sourceTree = "<group>"; };
+		3FDB93CE1AD58E6F007EA625 /* templete_cctv7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv7.png; sourceTree = "<group>"; };
+		3FDB93CF1AD58E6F007EA625 /* templete_cctv8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv8.png; sourceTree = "<group>"; };
+		3FDB93D01AD58E6F007EA625 /* templete_cctv9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctv9.png; sourceTree = "<group>"; };
+		3FDB93D11AD58E6F007EA625 /* templete_cctvnews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cctvnews.png; sourceTree = "<group>"; };
+		3FDB93D21AD58E6F007EA625 /* templete_cztv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_cztv.png; sourceTree = "<group>"; };
+		3FDB93D31AD58E6F007EA625 /* templete_fjtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_fjtv.png; sourceTree = "<group>"; };
+		3FDB93D41AD58E6F007EA625 /* templete_gdtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_gdtv.png; sourceTree = "<group>"; };
+		3FDB93D51AD58E6F007EA625 /* templete_gxtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_gxtv.png; sourceTree = "<group>"; };
+		3FDB93D61AD58E6F007EA625 /* templete_gzstv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_gzstv.png; sourceTree = "<group>"; };
+		3FDB93D71AD58E6F007EA625 /* templete_hbe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_hbe.png; sourceTree = "<group>"; };
+		3FDB93D81AD58E6F007EA625 /* templete_hbtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_hbtv.png; sourceTree = "<group>"; };
+		3FDB93D91AD58E6F007EA625 /* templete_hljtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_hljtv.png; sourceTree = "<group>"; };
+		3FDB93DA1AD58E6F007EA625 /* templete_hntv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_hntv.png; sourceTree = "<group>"; };
+		3FDB93DB1AD58E6F007EA625 /* templete_hnwtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_hnwtv.png; sourceTree = "<group>"; };
+		3FDB93DC1AD58E6F007EA625 /* templete_jilin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_jilin.png; sourceTree = "<group>"; };
+		3FDB93DD1AD58E6F007EA625 /* templete_jstv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_jstv.png; sourceTree = "<group>"; };
+		3FDB93DE1AD58E6F007EA625 /* templete_jxtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_jxtv.png; sourceTree = "<group>"; };
+		3FDB93DF1AD58E6F007EA625 /* templete_lntv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_lntv.png; sourceTree = "<group>"; };
+		3FDB93E01AD58E6F007EA625 /* templete_sctv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_sctv.png; sourceTree = "<group>"; };
+		3FDB93E11AD58E6F007EA625 /* templete_sdtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_sdtv.png; sourceTree = "<group>"; };
+		3FDB93E21AD58E6F007EA625 /* templete_smgtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_smgtv.png; sourceTree = "<group>"; };
+		3FDB93E31AD58E6F007EA625 /* templete_sxr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_sxr.png; sourceTree = "<group>"; };
+		3FDB93E41AD58E6F007EA625 /* templete_sxstv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_sxstv.png; sourceTree = "<group>"; };
+		3FDB93E51AD58E6F007EA625 /* templete_tjtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_tjtv.png; sourceTree = "<group>"; };
+		3FDB93E61AD58E6F007EA625 /* templete_xjtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_xjtv.png; sourceTree = "<group>"; };
+		3FDB93E71AD58E6F007EA625 /* templete_xmgtv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_xmgtv.png; sourceTree = "<group>"; };
+		3FDB93E81AD58E6F007EA625 /* templete_yntv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templete_yntv.png; sourceTree = "<group>"; };
+		3FDB94231AD58ED5007EA625 /* OperateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperateViewController.h; sourceTree = "<group>"; };
+		3FDB94241AD58ED5007EA625 /* OperateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperateViewController.m; sourceTree = "<group>"; };
+		3FDB94251AD58ED5007EA625 /* OperateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OperateViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FDB93821AD58E22007EA625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDB939B1AD58E22007EA625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FDB937C1AD58E22007EA625 = {
+			isa = PBXGroup;
+			children = (
+				3FDB93871AD58E22007EA625 /* NewsCamera */,
+				3FDB93A11AD58E22007EA625 /* NewsCameraTests */,
+				3FDB93861AD58E22007EA625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FDB93861AD58E22007EA625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB93851AD58E22007EA625 /* NewsCamera.app */,
+				3FDB939E1AD58E22007EA625 /* NewsCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDB93871AD58E22007EA625 /* NewsCamera */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB93AE1AD58E6F007EA625 /* Resources */,
+				3FDB938C1AD58E22007EA625 /* AppDelegate.h */,
+				3FDB938D1AD58E22007EA625 /* AppDelegate.m */,
+				3FDB938F1AD58E22007EA625 /* ViewController.h */,
+				3FDB93901AD58E22007EA625 /* ViewController.m */,
+				3FDB93921AD58E22007EA625 /* Main.storyboard */,
+				3FDB94231AD58ED5007EA625 /* OperateViewController.h */,
+				3FDB94241AD58ED5007EA625 /* OperateViewController.m */,
+				3FDB94251AD58ED5007EA625 /* OperateViewController.xib */,
+				3FDB93951AD58E22007EA625 /* Images.xcassets */,
+				3FDB93971AD58E22007EA625 /* LaunchScreen.xib */,
+				3FDB93881AD58E22007EA625 /* Supporting Files */,
+			);
+			path = NewsCamera;
+			sourceTree = "<group>";
+		};
+		3FDB93881AD58E22007EA625 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB93891AD58E22007EA625 /* Info.plist */,
+				3FDB938A1AD58E22007EA625 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FDB93A11AD58E22007EA625 /* NewsCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB93A41AD58E22007EA625 /* NewsCameraTests.m */,
+				3FDB93A21AD58E22007EA625 /* Supporting Files */,
+			);
+			path = NewsCameraTests;
+			sourceTree = "<group>";
+		};
+		3FDB93A21AD58E22007EA625 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB93A31AD58E22007EA625 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FDB93AE1AD58E6F007EA625 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FDB93AF1AD58E6F007EA625 /* button_bg_normal.9.png */,
+				3FDB93B01AD58E6F007EA625 /* button_bg_pressed.9.png */,
+				3FDB93B11AD58E6F007EA625 /* button_camera_normal.9.png */,
+				3FDB93B21AD58E6F007EA625 /* button_camera_pressed.9.png */,
+				3FDB93B31AD58E6F007EA625 /* button_normal.9.png */,
+				3FDB93B41AD58E6F007EA625 /* button_press.9.png */,
+				3FDB93B51AD58E6F007EA625 /* camera_icon.png */,
+				3FDB93B61AD58E6F007EA625 /* cctv_com.png */,
+				3FDB93B71AD58E6F007EA625 /* cntv_logo.png */,
+				3FDB93B81AD58E6F007EA625 /* ic_launcher.png */,
+				3FDB93B91AD58E6F007EA625 /* live1.png */,
+				3FDB93BA1AD58E6F007EA625 /* live2.png */,
+				3FDB93BB1AD58E6F007EA625 /* movie_screen.png */,
+				3FDB93BC1AD58E6F007EA625 /* save_icon.png */,
+				3FDB93BD1AD58E6F007EA625 /* share_icon.png */,
+				3FDB93BE1AD58E6F007EA625 /* subtitle_icon.png */,
+				3FDB93BF1AD58E6F007EA625 /* template_icon.png */,
+				3FDB93C01AD58E6F007EA625 /* templete_ahtv.png */,
+				3FDB93C11AD58E6F007EA625 /* templete_btv.png */,
+				3FDB93C21AD58E6F007EA625 /* templete_cctv1.png */,
+				3FDB93C31AD58E6F007EA625 /* templete_cctv10.png */,
+				3FDB93C41AD58E6F007EA625 /* templete_cctv11.png */,
+				3FDB93C51AD58E6F007EA625 /* templete_cctv12.png */,
+				3FDB93C61AD58E6F007EA625 /* templete_cctv13.png */,
+				3FDB93C71AD58E6F007EA625 /* templete_cctv14.png */,
+				3FDB93C81AD58E6F007EA625 /* templete_cctv15.png */,
+				3FDB93C91AD58E6F007EA625 /* templete_cctv2.png */,
+				3FDB93CA1AD58E6F007EA625 /* templete_cctv3.png */,
+				3FDB93CB1AD58E6F007EA625 /* templete_cctv4.png */,
+				3FDB93CC1AD58E6F007EA625 /* templete_cctv5.png */,
+				3FDB93CD1AD58E6F007EA625 /* templete_cctv6.png */,
+				3FDB93CE1AD58E6F007EA625 /* templete_cctv7.png */,
+				3FDB93CF1AD58E6F007EA625 /* templete_cctv8.png */,
+				3FDB93D01AD58E6F007EA625 /* templete_cctv9.png */,
+				3FDB93D11AD58E6F007EA625 /* templete_cctvnews.png */,
+				3FDB93D21AD58E6F007EA625 /* templete_cztv.png */,
+				3FDB93D31AD58E6F007EA625 /* templete_fjtv.png */,
+				3FDB93D41AD58E6F007EA625 /* templete_gdtv.png */,
+				3FDB93D51AD58E6F007EA625 /* templete_gxtv.png */,
+				3FDB93D61AD58E6F007EA625 /* templete_gzstv.png */,
+				3FDB93D71AD58E6F007EA625 /* templete_hbe.png */,
+				3FDB93D81AD58E6F007EA625 /* templete_hbtv.png */,
+				3FDB93D91AD58E6F007EA625 /* templete_hljtv.png */,
+				3FDB93DA1AD58E6F007EA625 /* templete_hntv.png */,
+				3FDB93DB1AD58E6F007EA625 /* templete_hnwtv.png */,
+				3FDB93DC1AD58E6F007EA625 /* templete_jilin.png */,
+				3FDB93DD1AD58E6F007EA625 /* templete_jstv.png */,
+				3FDB93DE1AD58E6F007EA625 /* templete_jxtv.png */,
+				3FDB93DF1AD58E6F007EA625 /* templete_lntv.png */,
+				3FDB93E01AD58E6F007EA625 /* templete_sctv.png */,
+				3FDB93E11AD58E6F007EA625 /* templete_sdtv.png */,
+				3FDB93E21AD58E6F007EA625 /* templete_smgtv.png */,
+				3FDB93E31AD58E6F007EA625 /* templete_sxr.png */,
+				3FDB93E41AD58E6F007EA625 /* templete_sxstv.png */,
+				3FDB93E51AD58E6F007EA625 /* templete_tjtv.png */,
+				3FDB93E61AD58E6F007EA625 /* templete_xjtv.png */,
+				3FDB93E71AD58E6F007EA625 /* templete_xmgtv.png */,
+				3FDB93E81AD58E6F007EA625 /* templete_yntv.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FDB93841AD58E22007EA625 /* NewsCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDB93A81AD58E22007EA625 /* Build configuration list for PBXNativeTarget "NewsCamera" */;
+			buildPhases = (
+				3FDB93811AD58E22007EA625 /* Sources */,
+				3FDB93821AD58E22007EA625 /* Frameworks */,
+				3FDB93831AD58E22007EA625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsCamera;
+			productName = NewsCamera;
+			productReference = 3FDB93851AD58E22007EA625 /* NewsCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FDB939D1AD58E22007EA625 /* NewsCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDB93AB1AD58E22007EA625 /* Build configuration list for PBXNativeTarget "NewsCameraTests" */;
+			buildPhases = (
+				3FDB939A1AD58E22007EA625 /* Sources */,
+				3FDB939B1AD58E22007EA625 /* Frameworks */,
+				3FDB939C1AD58E22007EA625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDB93A01AD58E22007EA625 /* PBXTargetDependency */,
+			);
+			name = NewsCameraTests;
+			productName = NewsCameraTests;
+			productReference = 3FDB939E1AD58E22007EA625 /* NewsCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDB937D1AD58E22007EA625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = GodPlace;
+				TargetAttributes = {
+					3FDB93841AD58E22007EA625 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3FDB939D1AD58E22007EA625 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3FDB93841AD58E22007EA625;
+					};
+				};
+			};
+			buildConfigurationList = 3FDB93801AD58E22007EA625 /* Build configuration list for PBXProject "NewsCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FDB937C1AD58E22007EA625;
+			productRefGroup = 3FDB93861AD58E22007EA625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDB93841AD58E22007EA625 /* NewsCamera */,
+				3FDB939D1AD58E22007EA625 /* NewsCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDB93831AD58E22007EA625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDB93E91AD58E6F007EA625 /* button_bg_normal.9.png in Resources */,
+				3FDB93EF1AD58E6F007EA625 /* camera_icon.png in Resources */,
+				3FDB93F51AD58E6F007EA625 /* movie_screen.png in Resources */,
+				3FDB93F41AD58E6F007EA625 /* live2.png in Resources */,
+				3FDB93F21AD58E6F007EA625 /* ic_launcher.png in Resources */,
+				3FDB93F61AD58E6F007EA625 /* save_icon.png in Resources */,
+				3FDB940F1AD58E6F007EA625 /* templete_gxtv.png in Resources */,
+				3FDB94271AD58ED5007EA625 /* OperateViewController.xib in Resources */,
+				3FDB941D1AD58E6F007EA625 /* templete_sxr.png in Resources */,
+				3FDB941A1AD58E6F007EA625 /* templete_sctv.png in Resources */,
+				3FDB93FD1AD58E6F007EA625 /* templete_cctv10.png in Resources */,
+				3FDB94211AD58E6F007EA625 /* templete_xmgtv.png in Resources */,
+				3FDB93F71AD58E6F007EA625 /* share_icon.png in Resources */,
+				3FDB940B1AD58E6F007EA625 /* templete_cctvnews.png in Resources */,
+				3FDB94051AD58E6F007EA625 /* templete_cctv4.png in Resources */,
+				3FDB94151AD58E6F007EA625 /* templete_hnwtv.png in Resources */,
+				3FDB93FC1AD58E6F007EA625 /* templete_cctv1.png in Resources */,
+				3FDB941C1AD58E6F007EA625 /* templete_smgtv.png in Resources */,
+				3FDB941B1AD58E6F007EA625 /* templete_sdtv.png in Resources */,
+				3FDB94071AD58E6F007EA625 /* templete_cctv6.png in Resources */,
+				3FDB940C1AD58E6F007EA625 /* templete_cztv.png in Resources */,
+				3FDB93ED1AD58E6F007EA625 /* button_normal.9.png in Resources */,
+				3FDB94171AD58E6F007EA625 /* templete_jstv.png in Resources */,
+				3FDB94011AD58E6F007EA625 /* templete_cctv14.png in Resources */,
+				3FDB94181AD58E6F007EA625 /* templete_jxtv.png in Resources */,
+				3FDB93FB1AD58E6F007EA625 /* templete_btv.png in Resources */,
+				3FDB94201AD58E6F007EA625 /* templete_xjtv.png in Resources */,
+				3FDB93F91AD58E6F007EA625 /* template_icon.png in Resources */,
+				3FDB94001AD58E6F007EA625 /* templete_cctv13.png in Resources */,
+				3FDB94161AD58E6F007EA625 /* templete_jilin.png in Resources */,
+				3FDB93FE1AD58E6F007EA625 /* templete_cctv11.png in Resources */,
+				3FDB93F81AD58E6F007EA625 /* subtitle_icon.png in Resources */,
+				3FDB94111AD58E6F007EA625 /* templete_hbe.png in Resources */,
+				3FDB940E1AD58E6F007EA625 /* templete_gdtv.png in Resources */,
+				3FDB94191AD58E6F007EA625 /* templete_lntv.png in Resources */,
+				3FDB94121AD58E6F007EA625 /* templete_hbtv.png in Resources */,
+				3FDB941E1AD58E6F007EA625 /* templete_sxstv.png in Resources */,
+				3FDB94131AD58E6F007EA625 /* templete_hljtv.png in Resources */,
+				3FDB940A1AD58E6F007EA625 /* templete_cctv9.png in Resources */,
+				3FDB93941AD58E22007EA625 /* Main.storyboard in Resources */,
+				3FDB93EC1AD58E6F007EA625 /* button_camera_pressed.9.png in Resources */,
+				3FDB94141AD58E6F007EA625 /* templete_hntv.png in Resources */,
+				3FDB93EB1AD58E6F007EA625 /* button_camera_normal.9.png in Resources */,
+				3FDB94041AD58E6F007EA625 /* templete_cctv3.png in Resources */,
+				3FDB941F1AD58E6F007EA625 /* templete_tjtv.png in Resources */,
+				3FDB93F31AD58E6F007EA625 /* live1.png in Resources */,
+				3FDB94081AD58E6F007EA625 /* templete_cctv7.png in Resources */,
+				3FDB93FA1AD58E6F007EA625 /* templete_ahtv.png in Resources */,
+				3FDB94101AD58E6F007EA625 /* templete_gzstv.png in Resources */,
+				3FDB93F01AD58E6F007EA625 /* cctv_com.png in Resources */,
+				3FDB940D1AD58E6F007EA625 /* templete_fjtv.png in Resources */,
+				3FDB93FF1AD58E6F007EA625 /* templete_cctv12.png in Resources */,
+				3FDB94061AD58E6F007EA625 /* templete_cctv5.png in Resources */,
+				3FDB94091AD58E6F007EA625 /* templete_cctv8.png in Resources */,
+				3FDB93991AD58E22007EA625 /* LaunchScreen.xib in Resources */,
+				3FDB93EE1AD58E6F007EA625 /* button_press.9.png in Resources */,
+				3FDB94021AD58E6F007EA625 /* templete_cctv15.png in Resources */,
+				3FDB93961AD58E22007EA625 /* Images.xcassets in Resources */,
+				3FDB93EA1AD58E6F007EA625 /* button_bg_pressed.9.png in Resources */,
+				3FDB94031AD58E6F007EA625 /* templete_cctv2.png in Resources */,
+				3FDB93F11AD58E6F007EA625 /* cntv_logo.png in Resources */,
+				3FDB94221AD58E6F007EA625 /* templete_yntv.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDB939C1AD58E22007EA625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDB93811AD58E22007EA625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDB93911AD58E22007EA625 /* ViewController.m in Sources */,
+				3FDB94261AD58ED5007EA625 /* OperateViewController.m in Sources */,
+				3FDB938E1AD58E22007EA625 /* AppDelegate.m in Sources */,
+				3FDB938B1AD58E22007EA625 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDB939A1AD58E22007EA625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDB93A51AD58E22007EA625 /* NewsCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDB93A01AD58E22007EA625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDB93841AD58E22007EA625 /* NewsCamera */;
+			targetProxy = 3FDB939F1AD58E22007EA625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FDB93921AD58E22007EA625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDB93931AD58E22007EA625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDB93971AD58E22007EA625 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDB93981AD58E22007EA625 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FDB93A61AD58E22007EA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FDB93A71AD58E22007EA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDB93A91AD58E22007EA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewsCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FDB93AA1AD58E22007EA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewsCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FDB93AC1AD58E22007EA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewsCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsCamera.app/NewsCamera";
+			};
+			name = Debug;
+		};
+		3FDB93AD1AD58E22007EA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewsCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsCamera.app/NewsCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDB93801AD58E22007EA625 /* Build configuration list for PBXProject "NewsCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDB93A61AD58E22007EA625 /* Debug */,
+				3FDB93A71AD58E22007EA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDB93A81AD58E22007EA625 /* Build configuration list for PBXNativeTarget "NewsCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDB93A91AD58E22007EA625 /* Debug */,
+				3FDB93AA1AD58E22007EA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FDB93AB1AD58E22007EA625 /* Build configuration list for PBXNativeTarget "NewsCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDB93AC1AD58E22007EA625 /* Debug */,
+				3FDB93AD1AD58E22007EA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FDB937D1AD58E22007EA625 /* Project object */;
+}

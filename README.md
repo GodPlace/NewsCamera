@@ -1,2 +1,2 @@
 # NewsCamera
-The fake news camera. Just for fun:)
+A fake news camera. Just for fun:)
